@@ -35,21 +35,23 @@ Nokia LCD http://mbed.org/cookbook/Nokia-LCD The LCD is required to display the 
 
 mosi	sclk	cs	rst
 p5	p7	p8	p9
+
 Sonar Sensor The Sonar provides a simple analog output.
 
 VDD	GND	DATA
 Vout	gnd	p18
+
 Speaker Speaker plays police siren as the alarm tone. A BJT 2N3904 is used to drive the Speaker.
 
 VDD	GND	DATA
 Vout	gnd	p18
+
 H Bridge
 
 fw1	fw2	rev1	rev2	pwm
 p10	p13	p11	p14	p24
-Both motors driven by a single external 9 volt battery connected to the supply terminals of h-bridge
 
-/media/uploads/sdesai49/20131013_180305.jpg
+Both motors driven by a single external 9 volt battery connected to the supply terminals of h-bridge
 
 Import programClocky
 
